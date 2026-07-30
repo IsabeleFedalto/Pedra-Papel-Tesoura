@@ -9,6 +9,7 @@ for numero in range():
     [2] 📄Papel
     [3] ✂️Tesoura
     """))
+
     op = ["Pedra", "Papel", "Tesoura"]
     escolha_pc = random.choice(op)
     if escolha_pc == escolha_jogador:
